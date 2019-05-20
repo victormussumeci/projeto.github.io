@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>ContabilizeJr</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estiloContabilizejr.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Proza+Libre" rel="stylesheet">	
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+
+</head>
+
+	<script
+	  type="text/javascript"
+	  src="https://code.jquery.com/jquery-3.4.1.js"
+	  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+	  crossorigin="anonymous">
+	</script>
+	<script type="text/javascript" src="js/slick.js"></script>
+	
+  
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js">
+  </script>
+  
+<body>
+	<div id="cabecalho">
+		<div id="LogoCa">
+			<img src="logoMenu.png">
+		</div>
+		<div id="itensCa">	
+			<ul>
+				<li><a href="#inicio">Inicio</a></li>
+				<li><a href="#QuemSomos">Sobre Nós</a></li>
+				<li><a href="#complet-Servico">Serviços</a></li>
+				<li><a href="#Portifolio">Portifólio</a></li>
+				<li><a href="#clientes">Clientes</a></li>
+				<li><a href="#contatos">Contatos</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="inicio">
+		<div id="filter2">
+			<div id="conteudo">
+				<h1 id="title-inicio">Contabilizando Sonhos, Gerando Soluções</h1>
+				<button ><a href="#contatos">Fale Conosco</a></button>
+			</div>
+		</div>		
+	</div>	
+
+	<div id="QM"></div>
+
+	<div id="QuemSomos">
+		<div id="titleQm">
+			<h2>SOBRE NÓS</h2>
+		</div>
+		<div id="conteudo">
+			<div id="co-text">
+				<p>Somos uma Empresa Júnior de Contabilidade da Universidade Federal Rural do Semi Árido - UFERSA, e nossa missão é Prestar assessoria e consultoria na área contábil com foco na excelência dos serviços prestados e satisfação dos clientes. Impactar a sociedade, gerar informação útil para a tomada de decisão dos clientes e desenvolver seus colaboradores por meio de capacitações, projetos e boa gestão.</p>
+			</div>
+			<div id="co-img">
+				<img src="QuemSomos.png">
+			</div>
+		</div>					
+	</div>	
+
+
+	
+	<div id="complet-Servico">		
+		<div id="filter">
+			<div id="conteudo-Se">
+							<h2 id="seçao">SERVIÇOS</h2>
+					<div id="Serviço1">
+						<img  class="img-SE1" src="Vector.png">
+						<h3 >ABERTURA DE EMPRESAS</h3>
+						<p>Legalização atraves da abertura do CNPJ</p>
+						<button class="logo1" onclick="iniciarmodal('Serviço1-modal')">Mais</button>
+					</div>
+					<div id="Serviço2">
+						<img  class="img-SE1" src="Vector1.png">
+						<h3 > CONFECÇÃO DAS DEMONSTRAÇÕES CONTÁBEIS</h3>
+						<p>Confecção de livro diário, razão e balanço patrimonial.</p>
+						<button class="logo2" onclick="iniciarmodal('Serviço2-modal')">Mais</button>
+					</div>
+					<div id="Serviço3">
+						<img  class="img-SE1" src="Vector2.png">
+						<h3> CONSULTORIA EM CUSTOS E PRECIFICAÇÃO</h3>
+						<p>Avaliação dos custos empresariais e preços praticados, para melhor desempenho.</p>
+						<button class="logo3" onclick="iniciarmodal('Serviço3-modal')">Mais</button>
+					</div>
+					<div id="Serviço4">
+						<img  class="img-SE1" src="Vector3.png">
+						<h3 >AVALIAÇÃO DE INVENTÁRIO</h3>
+						<p>Avaliação de inventário</p>
+						<button class="logo4" onclick="iniciarmodal('Serviço4-modal')">Mais</button>
+					</div>
+				</div>
+			</div>
+		</div>	
+				
+	</div>
+
+
+
+<div id="Portifolio">
+	<h3>PORTIFÓLIO</h3>
+	
+	<div class="carrossel">
+		<div>
+			<img src="port1.png" alt="slider image" class="P1" onclick="iniciarModal2('port1')" >
+			<div id="port1" class="modal-container2"><p>Morbi efficitur urna mi, eget fermentum leo interdum in. Integer vel lorem rhoncus, feugiat dolor nec, rhoncus erat. Aliquam erat volutpat. Etiam convallis semper quam. Morbi suscipit pharetra tincidunt.</p></div>
+		</div>
+		<div>
+			<img src="port1.png" alt="slider image" class="P2" onclick="iniciarModal2('port2')" >
+			<div id="port2" class="modal-container3">
+				<p>Morbi efficitur urna mi, eget fermentum leo interdum in. Integer vel lorem rhoncus, feugiat dolor nec, rhoncus erat. Aliquam erat volutpat. Etiam convallis semper quam. Morbi suscipit pharetra tincidunt.
+				</p>
+			</div>
+		</div>
+		<div>
+			<img src="port1.png" alt="slider image" class="P3"onclick="iniciarModal2('port3')" >
+			<div id="port3" class="modal-container4">
+				<p>Morbi efficitur urna mi, eget fermentum leo interdum in. Integer vel lorem rhoncus, feugiat dolor nec, rhoncus erat. Aliquam erat volutpat. Etiam convallis semper quam. Morbi suscipit pharetra tincidunt.
+				</p>
+			</div>
+		</div>
+		<div>
+			<img src="port1.png" alt="slider image" class="P4"onclick="iniciarModal2('port4')" >
+			<div id="port4" class="modal-container5">
+				<p>Morbi efficitur urna mi, eget fermentum leo interdum in. Integer vel lorem rhoncus, feugiat dolor nec, rhoncus erat. Aliquam erat volutpat. Etiam convallis semper quam. Morbi suscipit pharetra tincidunt.
+				</p>
+			</div>
+		</div>
+		<div>
+			<img src="port1.png" alt="slider image" class="P5" onclick="iniciarModal2('port5')" >>
+			<div id="port5" class="modal-container6">
+				<p>Morbi efficitur urna mi, eget fermentum leo interdum in. Integer vel lorem rhoncus, feugiat dolor nec, rhoncus erat. Aliquam erat volutpat. Etiam convallis semper quam. Morbi suscipit pharetra tincidunt.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	<div id="clientes">
+		<h3>CLIENTES</h3>
+		<div class="carrossel2">
+			<div><a href=""><img src="port1.png"></a></div>
+			<div><a href=""><img src="port1.png"></a></div>
+			<div><a href=""><img src="port1.png"></a></div>
+			<div><a href=""><img src="port1.png"></a></div>
+			<div><a href=""><img src="port1.png"></a></div>
+			<div><a href=""><img src="port1.png"></a></div>
+			<div><a href=""><img src="port1.png"></a></div>
+			<div><a href=""><img src="port1.png"></a></div>
+		</div>	
+	</div>
+
+	<div id="contatos">
+		<div class="titleCo"><h3>CONTATOS</h3></div>
+			<div class="mapa">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1986.7105401595745!2d-37.31688884209585!3d-5.196312927869622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ba076da0db4aff%3A0x2d521625e5bb20e1!2sAv.+Francisco+Mota%2C+572+-+Vingt+Rosado%2C+Mossor%C3%B3+-+RN%2C+59626-105!5e0!3m2!1spt-BR!2sbr!4v1557797523323!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+			
+				<img src="localizacao.png" class="item3">
+				<img src="email.png" class="item4">			
+				<img src="telefone.png" class="item5">
+			
+			
+				<p class="item6">Av. Francisco Mota, 572, Costa e Silva Mossoró</p>
+				<p class="item7"> contato@contabilizejr.com</p>
+				<p class="item8">(84) 98813-1965</p>
+				<a class="face"href="https://pt-br.facebook.com/contabilizejr/"><img src="facebook.png"></a>
+				<a  class="insta"href="https://www.instagram.com/contabilizejr/"><img src="instagram.png"></a>
+			<div class="form">
+				
+				<form>
+					<p class="  titulo-form">MANDE-NOS UMA MENSAGEM</p><br><br>
+
+					<p class=" nome-form">NOME</p><br>
+					<input  class="campo-nome" type=" text" name="nome">
+
+
+					<p class=" telefone-form">TELEFONE</p><br>
+					<input  class="campo-telefone" type=tel name="phone" id="phone">
+
+
+					<p class=" email-form">EMAIL</p><br>
+					<input  class="campo-email"type="email">
+
+
+					<p class=" mensagem-form">MENSAGEM</p><br>
+					<textarea class="campo-mensagem"></textarea>
+
+					<input  class="enviar" type="submit" value="ENVIAR">
+
+				</form>
+			</div>	
+
+
+	</div>
+	<div id="footer">
+		<a href="http://www.ejectufrn.com.br/?gclid=EAIaIQobChMI-pz39uWZ4gIVjY2zCh39dAOPEAAYASAAEgKKT_D_BwE">Squad V © ProSEmpre EJECT 2019 </a>
+	</div>
+			
+	
+
+
+
+
+	<div id="Serviço1-modal" class="modal-container">
+		<div class="modal">
+			<button class="fechar">x</button>
+			<div class="conteudo-modal">
+			<p >Nam vel tortor vitae ante feugiat fermentum id nec leo. Sed pharetra ac odio ac iaculis. Suspendisse potenti. Ut porta vestibulum massa, et euismod magna egestas sed. Integer posuere urna odio, a tempor eros venenatis sit amet. Nullam eros est, congue eget nunc sed, dapibus eleifend orci. Cras ultricies dapibus purus ut dictum. Cras volutpat quis risus sed egestas. Aliquam vehicula lorem eget ligula aliquam, sit amet efficitur est consectetur. Pellentesque finibus lorem ut lacus volutpat, at ornare leo efficitur. Fusce placerat placerat dui, in posuere eros sagittis quis. Morbi eu dolor sit amet nulla placerat ullamcorper.</p>
+			</div>
+			
+		</div>
+	</div>	
+
+
+
+	<div id="Serviço2-modal" class="modal-container">
+		<div class="modal">
+			<button class="fechar">x</button>
+			<div class="conteudo-modal">
+			<p >Nam vel tortor vitae ante feugiat fermentum id nec leo. Sed pharetra ac odio ac iaculis. Suspendisse potenti. Ut porta vestibulum massa, et euismod magna egestas sed. Integer posuere urna odio, a tempor eros venenatis sit amet. Nullam eros est, congue eget nunc sed, dapibus eleifend orci. Cras ultricies dapibus purus ut dictum. Cras volutpat quis risus sed egestas. Aliquam vehicula lorem eget ligula aliquam, sit amet efficitur est consectetur. Pellentesque finibus lorem ut lacus volutpat, at ornare leo efficitur. Fusce placerat placerat dui, in posuere eros sagittis quis. Morbi eu dolor sit amet nulla placerat ullamcorper.</p>
+			</div>
+			
+		</div>
+
+	</div>	
+	<div id="Serviço3-modal" class="modal-container">
+		<div class="modal">
+			<button class="fechar">x</button>
+			<div class="conteudo-modal">
+				<p >Nam vel tortor vitae ante feugiat fermentum id nec leo. Sed pharetra ac odio ac iaculis. Suspendisse potenti. Ut porta vestibulum massa, et euismod magna egestas sed. Integer posuere urna odio, a tempor eros venenatis sit amet. Nullam eros est, congue eget nunc sed, dapibus eleifend orci. Cras ultricies dapibus purus ut dictum. Cras volutpat quis risus sed egestas. Aliquam vehicula lorem eget ligula aliquam, sit amet efficitur est consectetur. Pellentesque finibus lorem ut lacus volutpat, at ornare leo efficitur. Fusce placerat placerat dui, in posuere eros sagittis quis. Morbi eu dolor sit amet nulla placerat ullamcorper.</p>
+			</div>
+			
+		</div>
+	</div>	
+
+
+	<div id="Serviço4-modal" class="modal-container">
+		<div class="modal">
+			<button class="fechar">x</button>
+			<div class="conteudo-modal">
+				<p >Nam vel tortor vitae ante feugiat fermentum id nec leo. Sed pharetra ac odio ac iaculis. Suspendisse potenti. Ut porta vestibulum massa, et euismod magna egestas sed. Integer posuere urna odio, a tempor eros venenatis sit amet. Nullam eros est, congue eget nunc sed, dapibus eleifend orci. Cras ultricies dapibus purus ut dictum. Cras volutpat quis risus sed egestas. Aliquam vehicula lorem eget ligula aliquam, sit amet efficitur est consectetur. Pellentesque finibus lorem ut lacus volutpat, at ornare leo efficitur. Fusce placerat placerat dui, in posuere eros sagittis quis. Morbi eu dolor sit amet nulla placerat ullamcorper.</p>
+			</div>
+			
+		</div>
+	</div>	
+
+
+	
+		
+	
+
+
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5ce0e1672846b90c57af433d/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+
+
+
+
+	<script type="text/javascript">
+   $(document).ready(function(){
+			$('.carrossel').slick({
+				dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+  				
+		
+		})
+			$('.carrossel2').slick({
+				dots: false,
+				slidesToShow: 5,
+  				slidesToScroll: 1,
+  				autoplay: true,
+  				infinite:true,
+  				autoplaySpeed: 2000,
+		})
+		})
+  
+
+	  	$('#phone').mask('(00)00000-0000');
+
+
+	  	function iniciarmodal(modalId){
+	  		const modal= document.getElementById(modalId);
+	  		modal.classList.add('mostrar');
+	  		modal.addEventListener('click',(e)=>{
+	  			if(e.target.id==modalId || e.target.className=='fechar'){
+	  				modal.classList.remove('mostrar')
+	  			}
+	  		})
+	  	}
+
+	  	function iniciarModal2(modalId2){
+	  		const modal2= document.getElementById(modalId2);
+	  		modal2.classList.add('mostrar2');
+	  		modal2.addEventListener('click',(e)=>{
+	  			if(e.target.id!=modalId2|| e.target.className!='P1'||e.target.className!='P2'||e.target.className!='P3'||e.target.className!='P4'||e.target.className!='P5'||e.target.className!='P6'){
+	  				modal2.classList.remove('mostrar2')
+	  			}
+	  		})
+
+	  	}
+	  	
+	  	
+
+</script>	
+	
+</body>
+</html>
